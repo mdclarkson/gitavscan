@@ -1,4 +1,4 @@
-FROM alpine:3.14.0
+FROM alpine:3.14.5
 
 ENTRYPOINT ["/usr/bin/dumb-init", "--"]
 CMD ["/gitscan.sh"]
